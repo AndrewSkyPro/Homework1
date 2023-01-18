@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.top {
+    height: 1024px;
+    background-image: url(img/topback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    max-width: 788px;
+    padding-top: 217px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.top__text {
+    max-width: 481px;
+    margin-top: 32px;
+    margin-bottom: 44px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.top__link {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.button {
+    width: 234.06px;
+    height: 48.6px;
+    background: #9C0332;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    background: #EB443F;
+}
+
+.top__button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.games {
+    background-image: url(img/gamesback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.games__content {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.games__item {
+    height: 300px;
+    grid-column: span 4;
+    border-radius: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.games__item:hover {
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0003 (1).jpg);
+    border: 3px solid #44D2FF;
+}
+
+.games__item_1 {
+    background-image: url(img/game-1.jpg);
+}
+
+.games__item_2 {
+    background-image: url(img/game-2.jpg);
+}
+
+.games__item_3 {
+    background-image: url(img/game-3.jpg);
+}
+
+.games__text {
+    padding-left: 32px;
+    padding-top: 236px;
+}
