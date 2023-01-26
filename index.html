@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,24 +11,75 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <section class="top center">
         <h1 class="title">Добро пожаловать на мой сайт !</h1>
-        <p class="top__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <a class="top__link" href="#"><span class="top__span">поехали</span></a> и <a class="top__link" href="#"><span class="top__span">приступай</span></a></p>
-        <a class="button top__button" href="#">Поехали!</a>
+        <p class="top__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <a class="top__link"
+                href="#"><span class="top__span">поехали</span></a> и <a class="top__link" href="#"><span
+                    class="top__span">приступай</span></a></p>
+        <a class="button" href="#">Поехали!</a>
     </section>
     <section class="games center">
         <div class="games__content">
-            <div class="games__item games__item_1">
-                <p class="games__text">Игра 1</p>
+            <div class="games__box">
+                <a href="#"><img class="games__img" src="img/game-1.png" alt="game1"></a>
+                <a href="#">
+                    <p class="games__text">Игра 1</p>
+                </a>
             </div>
-            <div class="games__item games__item_2">
-                <p class="games__text">Игра 2</p>
+            <div class="games__box">
+                <a href="#"><img class="games__img" src="img/game-2.png" alt="game2"></a>
+                <a href="#">
+                    <p class="games__text">Игра 2</p>
+                </a>
             </div>
-            <div class="games__item games__item_3">
-                <p class="games__text">Игра 3</p>
+            <div class="games__box">
+                <a href="#"><img class="games__img" src="img/game-3.png" alt="game3"></a>
+                <a href="#">
+                    <p class="games__text">Игра 3</p>
+                </a>
             </div>
         </div>
     </section>
+    <section class="seasons center">
+        <div class="seasons__content">
+            <div class="seasons__left">
+                <h2 class="heading">Времена года</h2>
+                <p class="seasons__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <a
+                        class="seasons__link" href="#"><span class="seasons__span">поехали</span></a> и <a
+                        class="seasons__link" href="#"><span class="seasons__span">приступай</span></a></p>
+                <a class="button" href="#">Поехали!</a>
+            </div>
+            <div class="seasons__right">
+                <img class="seasons__img" src="img/seasons-right.svg" alt="game">
+            </div>
+        </div>
+    </section>
+    <section class="remember center">
+        <div class="remember__content">
+            <div class="remember__right">
+                <h2 class="heading">Запомни слова</h2>
+                <p class="remember__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам
+                    необходимо запомнить.</p>
+                <a class="button" href="#">Играть</a>
+            </div>
+            <div class="remember__left">
+                <img class="remember__img" src="img/remember-img.svg" alt="game">
+            </div>
+        </div>
+    </section>
+    <section class="puzzle center">
+        <div class="puzzle__content">
+            <h2 class="heading">Игра в загадки</h2>
+            <p class="puzzle__text">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не
+                правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+            <a class="button" href="#">Играть!</a>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__text">Все права защищены</p>
+    </footer>
 </body>
+
 </html>
