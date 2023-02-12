@@ -250,7 +250,7 @@ a {
     text-align: center;
   }
   .games__img {
-    width: 343px;
+    width: 100%;
   }
   .seasons__content {
     gap: 64px;
