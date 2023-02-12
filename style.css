@@ -99,8 +99,12 @@ a {
   line-height: 32px;
   color: #FFFFFF;
   position: relative;
+  box-sizing: border-box;
 }
-.games__box:hover {
+.games__img {
+  border-radius: 16px;
+}
+.games__img:hover {
   border: 3px solid #44D2FF;
 }
 .games__text {
@@ -246,7 +250,7 @@ a {
     text-align: center;
   }
   .games__img {
-    width: 100%;
+    width: 343px;
   }
   .seasons__content {
     gap: 64px;

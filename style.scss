@@ -104,6 +104,12 @@ a {
         line-height: 32px;
         color: #FFFFFF;
         position: relative;
+        box-sizing: border-box;
+    }
+    
+
+    &__img {
+        border-radius: 16px;
         &:hover {
             border: 3px solid #44D2FF;
         }
