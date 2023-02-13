@@ -103,6 +103,7 @@ a {
 }
 .games__img {
   border-radius: 16px;
+  width: 100%;
 }
 .games__img:hover {
   border: 3px solid #44D2FF;
@@ -248,9 +249,6 @@ a {
     font-size: 32px;
     line-height: 39px;
     text-align: center;
-  }
-  .games__img {
-    width: 100%;
   }
   .seasons__content {
     gap: 64px;
